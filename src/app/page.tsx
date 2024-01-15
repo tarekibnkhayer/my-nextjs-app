@@ -1,11 +1,13 @@
-import React from 'react';
+import Counter from "@/components/Counter/Counter";
 
-const page = () => {
+const Page = () => {
+  // throw new Error();
   return (
     <div>
       Home Page
+      <Counter/>
     </div>
   );
 };
 
-export default page;
+export default Page;
