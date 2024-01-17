@@ -13,9 +13,11 @@ export default function RootLayout({children}: {
   children: React.ReactNode
 }) {
   return (
-    <html lang="en">
+    <html lang="en" data-theme="light">
       <body className={inter.className}>
-       {children}
+      <div className='p-5'>
+      {children}
+      </div>
         </body>
     </html>
   )
